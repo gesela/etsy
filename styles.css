@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    text-decoration-line: none;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    height: 85px;
+}
+.essentials{
+    display: flex;
+    padding: 5px 5px;
+    align-items: center;
+    text-decoration-color: black;
+}
+
+.essentials>li {
+    padding: 70px;
+    text-decoration-color: black;
+    
+}
+.toc{
+    display: flex;
+    padding: 5px 10px;
+}
+.toc>li{
+    padding: 10px 50px;
+    color: black;
+}
+
+#div1{
+    background-color: rgb(217, 232, 216);
+    width: 100vw;
+}
+
+#div1 > h2 {
+    text-align: center;
+}
+
+#div1>ul {
+    display: flex;
+    padding: 30px;
+    padding: 0px 20px;
+}
+
+#div1>ul>li {
+    display:flex;
+    padding: 20px;
+}
+
+#div1>ul>li img {
+    border-radius: 50%;
+    padding: 0px;
+    width: 250px;
+}
+
+#div1>ul>li img:hover {
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+#div1>ul>li {
+    text-align: center;
+}
+
+#div2 {
+    width: 100vw
+}
+
+#div2 > h3 {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#div2>ul{
+    display: flex;
+}
+
+#div2>ul>li {
+    display: flex;
+    padding: 20px;
+}
+
+#div2>ul>li img:hover{
+    opacity: 0.5;
+    transition: 1s ease;
+}
+
+#div4 {
+    background-color: rgb(250, 236, 213);
+    padding: 50px;
+    display: grid;
+    height: 300px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.p1 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    width: 300px;
+    height: 200px;
+    font-size: 21px;
+}
+
+.p2 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    width: 300px;
+    height: 200px;
+    font-size: 21px;
+}
+
+.p3 {
+    grid-row: 2/3;
+    grid-column: 4/5;
+    width: 300px;
+    height: 200px;
+    font-size: 21px;
+
+}
+
+#five{
+    background-color: rgb(219, 229, 293);
+    height: 200px;
+}
+
+#six{
+    background-color: rgb(83, 106, 192);
+    height: 175px;
+}
+
+#seven {
+    background-color: rgb(53, 69, 105);
+    height: 200px
+}
+
+#eight {
+    background-color: rgb(35, 35, 69);
+    height: 80px;
+    display: grid;
+    width: 100vw;
+    padding: 20px 30px;
+}
+.leftfooter {
+    color: antiquewhite;
+    grid-column: 1/2;
+
+}
+.rightfooter{
+    color: antiquewhite;
+    grid-column: 4/5
+}
+
+#searchbar {
+    /* position: absolute; */
+    top: 400px;
+    left: 575px;
+}
+
+#searchbar input {
+    height: 40px;
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
